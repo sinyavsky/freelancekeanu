@@ -10,6 +10,7 @@
   .page__container {
     width: 90%;
     max-width: 944px;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
