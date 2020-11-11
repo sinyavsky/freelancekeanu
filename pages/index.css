@@ -3,8 +3,23 @@
 @import url(../fonts/roboto.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__colored-wrap/page__colored-wrap.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/socials/socials.css);
+@import url(../blocks/socials/__link/socials__link.css);
+@import url(../blocks/socials/__icon/socials__icon.css);
+
+@import url(../blocks/hello/hello.css);
+@import url(../blocks/hello/__picture/hello__picture.css);
+@import url(../blocks/hello/__occupation/hello__occupation.css);
+@import url(../blocks/hello/__heading/hello__heading.css);
+@import url(../blocks/hello/__text/hello__text.css);
+
+@import url(../blocks/feedback-button/feedback-button.css);
+@import url(../blocks/hello/__button/hello__button.css);
 
 @import url(../blocks/advantages/advantages.css);
 
@@ -13,3 +28,6 @@
 @import url(../blocks/gallery/gallery.css);
 
 @import url(../blocks/footer/footer.css);
+
+/* должен подключаться после всех секций */
+@import url(../blocks/page/__container/page__container.css);

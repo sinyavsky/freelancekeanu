@@ -1,0 +1,15 @@
+.hello__heading {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.16;
+  margin: 4px 0 0;
+}
+
+@media screen and (min-width: 768px)
+{
+  .hello__heading {
+    font-size: 50px;
+    line-height: 1.18;
+    margin-top: 13px;
+  }
+}

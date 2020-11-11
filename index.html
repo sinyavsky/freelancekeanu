@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Фрилансер Петр Федоров</title>
   <link rel="stylesheet" href="pages/index.css">
 </head>
+
 <body class="page">
-  <header class="header">
-    <!-- Шапка: Киану Ривз и всё остальное из этого блока-->
+  <header class="header page__container">
+    <a href="#"><img src="images/logo.svg" alt="Дискорд" class="header__logo"></a>
+    <!-- ссылки на сторонние сайты => намеренно не оборачиваю их в nav -->
+    <ul class="socials">
+      <li><a href="#" class="socials__link"><img src="images/github.svg" alt="Гитхаб" class="socials__icon"></a></li>
+      <li><a href="#" class="socials__link"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon"></a></li>
+      <li><a href="#" class="socials__link"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon"></a>
+      </li>
+      <li><a href="#" class="socials__link"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon"></a></li>
+    </ul>
   </header>
   <main>
-    <section class="advantages">
-      <!-- Со мной удобно работать -->
+    <section class="hello page__container">
+      <img src="images/Keanu.jpg" alt="Киану Ривз" class="hello__picture">
+      <div>
+        <p class="hello__occupation">Фрилансер</p>
+        <h1 class="hello__heading">Петр Федоров</h1>
+        <p class="hello__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку
+          небольшого сайта или интернет-магазина</p>
+        <a href="#" class="feedback-button hello__button">Бесплатная консультация</a>
+      </div>
     </section>
+    <div class="page__colored-wrap">
+      <section class="advantages">
+        Со мной удобно работать
+      </section>
+    </div>
     <section class="projects">
-      <!-- Выполненные проекты -->
+      Выполненные проекты
     </section>
-    <section class="gallery">
-      <!-- Блок с фотками-->
-    </section>
+    <div class="page__colored-wrap">
+      <section class="gallery">
+        Блок с фотками
+      </section>
+    </div>
   </main>
   <footer class="footer">
-    <!-- Подвал: Свяжитесь со мной и всё остальное-->
+    Подвал: Свяжитесь со мной и всё остальное
   </footer>
 </body>
+
 </html>
