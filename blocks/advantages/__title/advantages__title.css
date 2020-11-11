@@ -1,0 +1,16 @@
+.advantages__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  padding: 64px 0 80px;
+  margin: 0 148px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages__title {
+    font-size: 19px;
+    padding: 61px 0 59px;
+    margin: 0;
+  }
+}

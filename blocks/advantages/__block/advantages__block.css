@@ -1,0 +1,13 @@
+.advantages__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 304px;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages__block {
+    margin: 0 auto;
+    width: 81%;
+  }
+}
