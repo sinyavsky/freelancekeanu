@@ -2,7 +2,6 @@
   display: grid;
   gap: 13px;
   grid-template-columns: repeat(4, min-content);
-  grid-template-rows: min-content;
   grid-auto-flow: column;
   align-items: center;
   margin: 0;

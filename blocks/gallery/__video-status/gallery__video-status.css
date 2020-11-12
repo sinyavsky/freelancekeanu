@@ -1,0 +1,23 @@
+.gallery__video-status {
+  font-size: 12px;
+  line-height: 1.67;
+  letter-spacing: 0.32px;
+  color: #fff;
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.gallery__video-status::after {
+  content: '';
+  display: block;
+  width: 13px;
+  height: 13px;
+  margin-left: 5px;
+  background-image: url(../../../images/play_circle_filled.svg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}

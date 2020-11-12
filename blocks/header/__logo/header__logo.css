@@ -2,4 +2,9 @@
   display: block;
   width: 100px;
   height: 28px;
+  transition: opacity ease .5s;
+}
+
+.header__logo:hover {
+  opacity: .7;
 }

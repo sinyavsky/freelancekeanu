@@ -1,13 +1,13 @@
 .projects__videos {
-  width: 944px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 576px) {
   .projects__videos {
-   flex-direction: column;
-    width: 100%;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3,1fr);
   }
 }

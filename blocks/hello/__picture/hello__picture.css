@@ -13,6 +13,8 @@
     height: 250px;
     border-width: 11px;
     width: 40%;
+    max-width: 384px;
+    box-sizing: border-box;
     height: auto;
   }
 }
