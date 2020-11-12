@@ -32,10 +32,18 @@
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__videos/projects__videos.css);
 @import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__link/projects__link.css);
+@import url(../blocks/projects/__picture/projects__picture.css);
+@import url(../blocks/projects/__name/projects__name.css);
+@import url(../blocks/projects/__fake-button/projects__fake-button.css);
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__grid/gallery__grid.css);
 @import url(../blocks/gallery/__cell/gallery__cell.css);
-@import url(../blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css);
+@import url(../blocks/gallery/__zoom-link/gallery__zoom-link.css);
+@import url(../blocks/gallery/__zoom-link/_video/gallery__zoom-link_video.css);
+@import url(../blocks/gallery/__thumbnail/gallery__thumbnail.css);
+@import url(../blocks/gallery/__video-status/gallery__video-status.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__heading/footer__heading.css);

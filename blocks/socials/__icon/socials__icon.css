@@ -1,6 +1,11 @@
 .socials__icon {
   width: 16px;
   height: auto;
+  transition: opacity ease .5s;
+}
+
+.socials__icon:hover {
+  opacity: .7;
 }
 
 @media screen and (min-width: 768px)

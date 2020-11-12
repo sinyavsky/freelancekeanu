@@ -1,12 +1,11 @@
 .advantages {
-  display: flex;
-  flex-direction: column;
-  background: #141F35;
+  padding-top: 61px;
+  padding-bottom: 29px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px)
+{
   .advantages {
-    width: 81%;
-    margin: 0 auto;
+    padding-bottom: 32px;
   }
 }

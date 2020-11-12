@@ -1,18 +1,13 @@
 .projects__title {
-  font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  margin: 0 auto;
-  width: 944px;
-  padding-bottom: 54px;
+  font-size: 19px;
+  line-height: 22px;
+  margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
   .projects__title {
-    font-size: 19px;
-    width: 267px;
-    padding-bottom: 35px;
-
+    font-size: 36px;
+    line-height: 1.17;
   }
 }

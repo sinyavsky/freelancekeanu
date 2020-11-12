@@ -1,0 +1,14 @@
+.gallery__zoom-link {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: opacity ease .5s;
+  cursor: zoom-in;
+}
+
+.gallery__zoom-link:hover {
+  opacity: .5;
+}

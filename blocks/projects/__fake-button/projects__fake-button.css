@@ -1,0 +1,22 @@
+.projects__fake-button {
+  background: #EC1F46;
+  box-shadow: 0px 2px 0px #CE1C3E;
+  border-radius: 4px;
+  width: 112px;
+  height: 34px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px)
+{
+  .projects__fake-button {
+    width: 120px;
+    height: 38px;
+  }
+}

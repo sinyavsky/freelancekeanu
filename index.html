@@ -28,75 +28,142 @@
         <h1 class="hello__heading">Петр Федоров</h1>
         <p class="hello__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку
           небольшого сайта или интернет-магазина</p>
-        <a href="#" class="feedback-button hello__button">Бесплатная консультация</a>
+        <a href="#feedback" class="feedback-button hello__button">Бесплатная консультация</a>
       </div>
     </section>
     <div class="page__colored-wrap">
-      <section class="advantages">
+      <section class="advantages page__container">
         <h2 class="advantages__title">Со мной удобно работать</h2>
-        <div class="advantages__blocks">
-          <div class="advantages__block">
+        <ul class="advantages__blocks">
+          <li class="advantages__block">
             <img class="advantages__logo" src="images/offer-img.svg" alt="По договору">
             <h3 class="advantages__subtitle">По договору</h3>
-            <p class="advantages__content">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
-          </div>
-          <div class="advantages__block">
+            <p class="advantages__content">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю
+              как ИП без НДС.</p>
+          </li>
+          <li class="advantages__block">
             <img class="advantages__logo" src="images/deadline-img.svg" alt="Точно в срок">
             <h3 class="advantages__subtitle">Точно в срок</h3>
-            <p class="advantages__content">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
-          </div>
-          <div class="advantages__block">
+            <p class="advantages__content">В договоре прописана моя ответственность за срок проекта. Если просрочу —
+              плачу неустойку. </p>
+          </li>
+          <li class="advantages__block">
             <img class="advantages__logo" src="images/agreement-img.svg" alt="Ценник под вас">
             <h3 class="advantages__subtitle">Ценник под вас</h3>
-            <p class="advantages__content">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
-          </div>
-          <div class="advantages__block" >
+            <p class="advantages__content">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+              складывается цена.</p>
+          </li>
+          <li class="advantages__block">
             <img class="advantages__logo" src="images/steps-img.svg" alt="Премежуточные итоги">
-            <h3 class="advantages__subtitle">Премежуточные итоги</h3>
-            <p class="advantages__content">Показываю работу поэтапно, а не <br>в последий момент перед <br>крайним сроком. </p>
-          </div>
-          <div class="advantages__block">
+            <h3 class="advantages__subtitle">Промежуточные итоги</h3>
+            <p class="advantages__content">Показываю работу поэтапно, а не <br>в последий момент перед <br>крайним
+              сроком. </p>
+          </li>
+          <li class="advantages__block">
             <img class="advantages__logo" src="images/storage-img.svg" alt="Хостинг и домен ">
             <h3 class="advantages__subtitle">Хостинг и домен </h3>
-            <p class="advantages__content">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
-          </div>
-          <div class="advantages__block">
+            <p class="advantages__content">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год
+              + SSL сертификат.</p>
+          </li>
+          <li class="advantages__block">
             <img class="advantages__logo" src="images/conversation-img.svg" alt="Не брошу после сдачи">
             <h3 class="advantages__subtitle">Не брошу после сдачи</h3>
-            <p class="advantages__content">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+            <p class="advantages__content">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <section class="projects page__container">
+      <h2 class="projects__title">Выполненные проекты</h2>
+      <ul class="projects__videos">
+        <li class="projects__card">
+          <a href="#" class="projects__link">
+            <img src="images/portfolio1.jpg" alt="Видео" class="projects__picture">
+            <p class="projects__name">The curious corner of chamarel</p>
+            <div class="projects__fake-button">Посмотреть</div>
+          </a>
+        </li>
+        <li class="projects__card">
+          <a href="#" class="projects__link">
+            <img src="images/portfolio2.jpg" alt="Видео" class="projects__picture">
+            <p class="projects__name">Gymkhana club golf course</p>
+            <div class="projects__fake-button">Посмотреть</div>
+          </a>
+        </li>
+        <li class="projects__card">
+          <a href="#" class="projects__link">
+            <img src="images/portfolio3.jpg" alt="Видео" class="projects__picture">
+            <p class="projects__name">Tamarind falls hiking trip - full day</p>
+            <div class="projects__fake-button">Посмотреть</div>
+          </a>
+        </li>
+      </ul>
+
+    </section>
+    <div class="page__colored-wrap">
+      <section class="gallery page__container">
+        <div class="gallery__grid">
+          <div class="gallery__cell">
+            <!-- предполагаем, что при клике на превью должен открываться поп-ап с большой картинкой / видео -->
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery01.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery02.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery03.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery04.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery05.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link gallery__zoom-link_video">
+              <img class="gallery__thumbnail" src="images/gallery06.jpg" alt="Картинка">
+              <div class="gallery__video-status">0:28</div>
+            </a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery07.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery08.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery09.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery10.jpg"
+                alt="Картинка"></a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link gallery__zoom-link_video">
+              <img class="gallery__thumbnail" src="images/gallery11.jpg" alt="Картинка">
+              <div class="gallery__video-status">0:28</div>
+            </a>
+          </div>
+          <div class="gallery__cell">
+            <a href="#" class="gallery__zoom-link">
+              <img class="gallery__thumbnail" src="images/gallery12.jpg" alt="Картинка">
+            </a>
           </div>
         </div>
       </section>
     </div>
-    <section class="projects">
-      <h2 class="projects__title">Выполненные проекты</h2>
-      <div class="projects__videos">
-        <img class="projects__card" src="images/Card%201.svg" alt="Видео">
-        <img class="projects__card" src="images/Card%202.svg" alt="Видео">
-        <img class="projects__card" src="images/Card%203.svg" alt="Видео">
-      </div>
-
-    </section>
-    <div class="page__colored-wrap">
-      <section class="gallery" id="scroll-bar">
-          <img class="gallery__cell" src="images/gallery01.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery02.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery03.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery04.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery05.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery06.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery07.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery08.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery09.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery10.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery11.jpg" alt="Картинка">
-          <img class="gallery__cell" src="images/gallery12.jpg" alt="Картинка">
-          <div class="gallery__scroll-overflow"></div>
-      </section>
-    </div>
   </main>
   <footer class="footer page__container">
-    <h2 class="footer__heading">Свяжитесь со мной</h2>
+    <h2 class="footer__heading" id="feedback">Свяжитесь со мной</h2>
     <form action="#" method="post" class="feedback">
       <p class="feedback__text">Можете оставить заявку, я позвоню вам сегодня</p>
       <input type="text" class="feedback__input feedback__input_type_name" placeholder="Ваше имя">

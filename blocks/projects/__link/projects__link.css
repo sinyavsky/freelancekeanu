@@ -1,0 +1,45 @@
+.projects__link {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 24px 25px;
+  box-sizing: border-box;
+}
+
+.projects__link::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(179.83deg, rgba(206, 206, 206, 0) 35.34%, #213E60 99.85%);
+  border-radius: 6px;
+  transition: opacity ease .5s;
+}
+
+.projects__link:hover::before {
+  opacity: .5;
+}
+
+@media screen and (min-width: 576px)
+{
+  .projects__link {
+    padding: 0 12px 12px;
+  }
+}
+
+@media screen and (min-width: 768px)
+{
+  .projects__link {
+    padding: 0 30px 25px;
+  }
+}

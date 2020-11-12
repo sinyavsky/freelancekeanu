@@ -3,6 +3,11 @@
   line-height: 1.14px;
   color: #fff;
   text-decoration: none;
+  transition: color ease .5s;
+}
+
+.footer__contacts-link:hover {
+  color: #FFBB01;
 }
 
 @media screen and (min-width: 992px)
