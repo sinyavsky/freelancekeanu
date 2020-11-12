@@ -1,0 +1,14 @@
+.advantages__blocks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 944px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 29px;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages__blocks {
+    width: 100%;
+  }
+}

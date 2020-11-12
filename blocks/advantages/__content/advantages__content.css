@@ -1,0 +1,15 @@
+.advantages__content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.75;
+  padding-bottom: 63px;
+}
+
+@media screen and (max-width: 767px) {
+  .advantages__content {
+    font-size: 14px;
+    line-height: 2;
+    padding-bottom: 30px;
+  }
+}
