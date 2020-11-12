@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26c99336-2c7c-4b7d-9780-d66d951035fc" name="Default Changelist" comment="added grid gallery">
-      <change afterPath="$PROJECT_DIR$/blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/projects/__card/projects__card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/projects/__title/projects__title.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blocks/projects/__videos/projects__videos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/gallery/__cell/gallery__cell.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/__cell/gallery__cell.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/gallery.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/projects/projects.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>

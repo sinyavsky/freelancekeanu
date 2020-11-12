@@ -29,6 +29,9 @@
 @import url(../blocks/advantages/__content/advantages__content.css);
 
 @import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__videos/projects__videos.css);
+@import url(../blocks/projects/__card/projects__card.css);
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__cell/gallery__cell.css);

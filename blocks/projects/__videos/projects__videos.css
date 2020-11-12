@@ -1,0 +1,13 @@
+.projects__videos {
+  width: 944px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__videos {
+   flex-direction: column;
+    width: 100%;
+  }
+}

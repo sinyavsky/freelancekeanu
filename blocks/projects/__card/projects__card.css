@@ -1,0 +1,11 @@
+.projects__card {
+  width: 304px;
+}
+
+@media screen and (max-width: 767px) {
+  .projects__card {
+    width: 267px;
+    object-fit: cover;
+    padding-bottom: 35px;
+  }
+}

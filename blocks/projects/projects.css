@@ -1,3 +1,14 @@
 .projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 528px;
+}
 
+@media screen and (max-width: 767px) {
+  .projects {
+   width: 83%;
+    margin: 0 auto;
+    padding: 61px 0;
+  }
 }
