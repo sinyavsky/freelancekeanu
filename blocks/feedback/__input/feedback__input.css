@@ -1,0 +1,18 @@
+.feedback__input {
+  background: #F8F8F8;
+  color: #000; /* цвет введенного должен отличаться от плейсхолдера, чтобы пользователь не запутался */
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  height: 64px;
+  padding: 18px 22px 18px 52px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 0;
+  font-size: 14px;
+  line-height: 2;
+  margin: 18px 0 0;
+}
+
+.feedback__input::placeholder {
+  color: #949494;
+}

@@ -1,0 +1,11 @@
+.feedback__submit {
+  margin: 37px 0 0;
+  height: 54px;
+}
+
+@media screen and (min-height: 768px)
+{
+  .feedback__submit {
+    height: 66px;
+  }
+}

@@ -1,0 +1,16 @@
+.feedback__text {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.4;
+  text-align: center;
+  color: #000;
+  margin: 0 0 18px;
+}
+
+@media screen and (min-width: 992px)
+{
+  .feedback__text {
+    font-size: 18px;
+    line-height: 1.56;
+  }
+}

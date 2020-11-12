@@ -13,11 +13,11 @@
     <a href="#"><img src="images/logo.svg" alt="Дискорд" class="header__logo"></a>
     <!-- ссылки на сторонние сайты => намеренно не оборачиваю их в nav -->
     <ul class="socials">
-      <li><a href="#" class="socials__link"><img src="images/github.svg" alt="Гитхаб" class="socials__icon"></a></li>
-      <li><a href="#" class="socials__link"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon"></a></li>
-      <li><a href="#" class="socials__link"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon"></a>
+      <li><a href="#"><img src="images/github.svg" alt="Гитхаб" class="socials__icon"></a></li>
+      <li><a href="#"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon"></a></li>
+      <li><a href="#"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon"></a>
       </li>
-      <li><a href="#" class="socials__link"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon"></a></li>
+      <li><a href="#"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon"></a></li>
     </ul>
   </header>
   <main>
@@ -45,8 +45,43 @@
       </section>
     </div>
   </main>
-  <footer class="footer">
-    Подвал: Свяжитесь со мной и всё остальное
+  <footer class="footer page__container">
+    <h2 class="footer__heading">Свяжитесь со мной</h2>
+    <form action="#" method="post" class="feedback">
+      <p class="feedback__text">Можете оставить заявку, я позвоню вам сегодня</p>
+      <input type="text" class="feedback__input feedback__input_type_name" placeholder="Ваше имя">
+      <input type="text" class="feedback__input feedback__input_type_phone" placeholder="Ваш телефон">
+      <button type="submit" class="feedback-button feedback__submit">Бесплатная консультация</button>
+    </form>
+
+    <div class="footer__contacts">
+      <div class="footer__contacts-group">
+        <h3 class="footer__contacts-heading">Телефон</h3>
+        <a href="#" class="footer__contacts-link">+7 999 123 45 67</a>
+      </div>
+      <div class="footer__contacts-group">
+        <h3 class="footer__contacts-heading">Почта</h3>
+        <a href="#" class="footer__contacts-link">ivanov@mail.ru</a>
+      </div>
+      <div class="footer__contacts-group footer__contacts-group_long">
+        <h3 class="footer__contacts-heading">Соцсети</h3>
+        <ul class="footer__contacts-socials">
+          <li><a href="#" class="footer__contacts-link">t.me/ivanov</a></li>
+          <li><a href="#" class="footer__contacts-link">vk.me/ivanov</a></li>
+          <li><a href="#" class="footer__contacts-link">fb.me/ivanov</a></li>
+        </ul>
+      </div>
+      <ul class="socials footer__socials">
+        <li><a href="#" class="socials__link"><img src="images/github.svg" alt="Гитхаб" class="socials__icon"></a></li>
+        <li><a href="#" class="socials__link"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon"></a>
+        </li>
+        <li><a href="#" class="socials__link"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon"></a>
+        </li>
+        <li><a href="#" class="socials__link"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon"></a>
+        </li>
+      </ul>
+      <a href="#" class="footer__policy">Политика конфиденциальности</a>
+    </div>
   </footer>
 </body>
 
