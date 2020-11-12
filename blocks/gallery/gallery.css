@@ -7,4 +7,31 @@
   padding: 96px 0;
 
 }
+@media screen and (max-width: 767px) {
+  .gallery {
+    width: 267px;
+    grid-template-columns: repeat(12, 124px);
+    grid-template-rows: 124px;
+    overflow-x: scroll;
+    padding: 35px 0 0;
+}
 
+  #scroll-bar::-webkit-scrollbar-track
+  {
+    border-radius: 6px;
+    background-color: #CECECE;
+  }
+
+  #scroll-bar::-webkit-scrollbar
+  {
+    height: 4px;
+    background-color: #141F35;
+  }
+
+  #scroll-bar::-webkit-scrollbar-thumb
+  {
+    border-radius: 6px;
+    width: 53px;
+    background-color: #FFBB01;
+  }
+}

@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 767px) {
   .advantages {
-    width: 100%;
+    width: 81%;
+    margin: 0 auto;
   }
 }
