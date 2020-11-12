@@ -1,0 +1,5 @@
+.gallery__cell {
+  height: 224px;
+  width: 224px;
+  object-fit: cover;
+}

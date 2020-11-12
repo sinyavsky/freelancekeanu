@@ -1,3 +1,10 @@
 .gallery {
+  display: grid;
+  width: 944px;
+  grid-template-columns: repeat(auto-fit, 224px);
+  gap: 16px;
+  margin: 0 auto;
+  padding: 96px 0;
 
 }
+
