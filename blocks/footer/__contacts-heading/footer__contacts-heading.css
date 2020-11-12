@@ -1,0 +1,15 @@
+.footer__contacts-heading {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.16;
+  color: #fff;
+  margin: 0 0 12px;
+}
+
+@media screen and (min-width: 992px)
+{
+  .footer__contacts-heading {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}

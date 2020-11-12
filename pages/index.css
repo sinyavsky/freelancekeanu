@@ -9,7 +9,6 @@
 @import url(../blocks/header/__logo/header__logo.css);
 
 @import url(../blocks/socials/socials.css);
-@import url(../blocks/socials/__link/socials__link.css);
 @import url(../blocks/socials/__icon/socials__icon.css);
 
 @import url(../blocks/hello/hello.css);
@@ -34,6 +33,23 @@
 @import url(../blocks/gallery/gallery.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contacts-group/footer__contacts-group.css);
+@import url(../blocks/footer/__contacts-group/_long/footer__contacts-group_long.css);
+@import url(../blocks/footer/__contacts-heading/footer__contacts-heading.css);
+@import url(../blocks/footer/__contacts-link/footer__contacts-link.css);
+@import url(../blocks/footer/__contacts-socials/footer__contacts-socials.css);
+@import url(../blocks/footer/__socials/footer__socials.css);
+@import url(../blocks/footer/__policy/footer__policy.css);
+
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__input/_type/feedback__input_type_name.css);
+@import url(../blocks/feedback/__input/_type/feedback__input_type_phone.css);
+@import url(../blocks/feedback/__submit/feedback__submit.css);
+
 
 /* должен подключаться после всех секций */
 @import url(../blocks/page/__container/page__container.css);

@@ -1,0 +1,16 @@
+.footer__contacts {
+  margin-top: 53px;
+}
+
+@media screen and (min-width: 768px)
+{
+  .footer__contacts {
+    width: 41.5%;
+    padding-left: 10%;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    grid-template-rows: repeat(3,min-content);
+    column-gap: 97px;
+  }
+}

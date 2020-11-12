@@ -1,0 +1,21 @@
+.feedback {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: -5px 5px 0px #FFC41D;
+  padding: 38px 22px 48px;
+}
+
+@media screen and (min-width: 768px)
+{
+  .feedback {
+    width: 48.5%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 992px)
+{
+  .feedback {
+    padding: 47px 39px 61px 39px;
+  }
+}
