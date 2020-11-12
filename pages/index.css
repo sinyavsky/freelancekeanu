@@ -31,6 +31,8 @@
 @import url(../blocks/projects/projects.css);
 
 @import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__cell/gallery__cell.css);
+@import url(../blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__heading/footer__heading.css);

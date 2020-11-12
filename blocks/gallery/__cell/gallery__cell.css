@@ -1,0 +1,12 @@
+.gallery__cell {
+  height: 224px;
+  width: 224px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery__cell {
+    height: 126px;
+    width: 126px;
+  }
+}

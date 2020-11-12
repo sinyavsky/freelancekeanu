@@ -19,15 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26c99336-2c7c-4b7d-9780-d66d951035fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blocks/advantages/__block/advantages__block.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/advantages/__blocks/advantages__blocks.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/advantages/__content/advantages__content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/advantages/__logo/advantages__logo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/advantages/__subtitle/advantages__subtitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/advantages/__title/advantages__title.css" afterDir="false" />
+    <list default="true" id="26c99336-2c7c-4b7d-9780-d66d951035fc" name="Default Changelist" comment="added grid gallery">
+      <change afterPath="$PROJECT_DIR$/blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/advantages/advantages.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/advantages/advantages.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/gallery/__cell/gallery__cell.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/__cell/gallery__cell.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/gallery.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
     </list>
@@ -55,6 +51,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brigh\dev\magenda\20-challenge-team-magenta\blocks\gallery" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,8 +64,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605123028063</updated>
-      <workItem from="1605123029207" duration="4918000" />
+      <workItem from="1605123029207" duration="12982000" />
+      <workItem from="1605173837825" duration="7506000" />
     </task>
+    <task id="LOCAL-00001" summary="Cверстала Удобно работать">
+      <created>1605127993731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605127993732</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added grid gallery">
+      <created>1605167542011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605167542012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,11 +97,21 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cверстала Удобно работать" />
+    <MESSAGE value="added grid gallery" />
+    <option name="LAST_COMMIT_MESSAGE" value="added grid gallery" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605127953233">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605167547624">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605127953233" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605167547624" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605167515150">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605167515150" />
   </component>
 </project>
