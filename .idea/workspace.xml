@@ -19,16 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26c99336-2c7c-4b7d-9780-d66d951035fc" name="Default Changelist" comment="added grid gallery">
-      <change afterPath="$PROJECT_DIR$/blocks/projects/__card/projects__card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/projects/__title/projects__title.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/projects/__videos/projects__videos.css" afterDir="false" />
+    <list default="true" id="26c99336-2c7c-4b7d-9780-d66d951035fc" name="Default Changelist" comment="Section Projects done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/__scroll-overflow/gallery__scroll-overflow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/gallery/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/gallery/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/projects/projects.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/projects/projects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/hello/__text/hello__text.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/hello/__text/hello__text.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605167542012</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Section Projects done">
+      <created>1605189412511</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605189412511</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,16 +105,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cверстала Удобно работать" />
     <MESSAGE value="added grid gallery" />
-    <option name="LAST_COMMIT_MESSAGE" value="added grid gallery" />
+    <MESSAGE value="Section Project done" />
+    <MESSAGE value="Section Projects done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section Projects done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605167547624">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1605189417643">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605167547624" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605167515150">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605189417643" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605189338302">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605167515150" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605189338302" />
   </component>
 </project>
