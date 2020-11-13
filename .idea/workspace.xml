@@ -22,6 +22,8 @@
     <list default="true" id="26c99336-2c7c-4b7d-9780-d66d951035fc" name="Default Changelist" comment="Section Projects done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blocks/hello/__text/hello__text.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/hello/__text/hello__text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/roboto.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/roboto.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,9 +116,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1605189417643" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605189338302">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605254310483">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605189338302" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1605254310483" />
   </component>
 </project>
