@@ -58,6 +58,8 @@
 
 @import url(../blocks/feedback/feedback.css);
 @import url(../blocks/feedback/__text/feedback__text.css);
+@import url(../blocks/feedback/__hide-on-mobile/feedback__hide-on-mobile.css);
+@import url(../blocks/feedback/__label/feedback__label.css);
 @import url(../blocks/feedback/__input/feedback__input.css);
 @import url(../blocks/feedback/__input/_type/feedback__input_type_name.css);
 @import url(../blocks/feedback/__input/_type/feedback__input_type_phone.css);

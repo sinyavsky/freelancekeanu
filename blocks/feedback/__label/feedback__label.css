@@ -1,0 +1,11 @@
+.feedback__label {
+  display: block;
+  margin-top: 18px;
+}
+
+@media screen and (min-width: 768px)
+{
+  .feedback__label {
+    margin-top: 20px;
+  }
+}
