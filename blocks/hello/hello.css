@@ -1,7 +1,7 @@
 .hello {
   display: flex;
   flex-direction: column;
-  padding-top: 49px;
+  padding-top: 45px;
   padding-bottom: 44px;
   align-items: center;
   text-align: center;
@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
-    padding-top: 117px;
+    padding-top: 113px;
     padding-bottom: 71px;
   }
 }
