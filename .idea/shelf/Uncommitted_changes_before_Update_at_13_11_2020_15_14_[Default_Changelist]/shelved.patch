@@ -1,0 +1,443 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"ru\">\r\n\r\n<head>\r\n  <meta charset=\"UTF-8\">\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n  <title>Фрилансер Петр Федоров</title>\r\n  <link rel=\"stylesheet\" href=\"pages/index.css\">\r\n</head>\r\n\r\n<body class=\"page\">\r\n  <header class=\"header page__container\">\r\n    <a href=\"#\"><img src=\"images/logo.svg\" alt=\"Дискорд\" class=\"header__logo\"></a>\r\n    <!-- ссылки на сторонние сайты => намеренно не оборачиваю их в nav -->\r\n    <ul class=\"socials\">\r\n      <li><a href=\"#\"><img src=\"images/github.svg\" alt=\"Гитхаб\" class=\"socials__icon\"></a></li>\r\n      <li><a href=\"#\"><img src=\"images/twitter.svg\" alt=\"Твиттер\" class=\"socials__icon\"></a></li>\r\n      <li><a href=\"#\"><img src=\"images/instagram.svg\" alt=\"Инстаграм\" class=\"socials__icon\"></a>\r\n      </li>\r\n      <li><a href=\"#\"><img src=\"images/facebook.svg\" alt=\"Фейсбук\" class=\"socials__icon\"></a></li>\r\n    </ul>\r\n  </header>\r\n  <main>\r\n    <section class=\"hello page__container\">\r\n      <img src=\"images/Keanu.jpg\" alt=\"Киану Ривз\" class=\"hello__picture\">\r\n      <div>\r\n        <p class=\"hello__occupation\">Фрилансер</p>\r\n        <h1 class=\"hello__heading\">Петр Федоров</h1>\r\n        <p class=\"hello__text\">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку\r\n          небольшого сайта или интернет-магазина</p>\r\n        <a href=\"#feedback\" class=\"feedback-button hello__button\">Бесплатная консультация</a>\r\n      </div>\r\n    </section>\r\n    <div class=\"page__colored-wrap\">\r\n      <section class=\"advantages page__container\">\r\n        <h2 class=\"advantages__title\">Со мной удобно работать</h2>\r\n        <ul class=\"advantages__blocks\">\r\n          <li class=\"advantages__block\">\r\n            <img class=\"advantages__logo\" src=\"images/offer-img.svg\" alt=\"По договору\">\r\n            <h3 class=\"advantages__subtitle\">По договору</h3>\r\n            <p class=\"advantages__content\">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю\r\n              как ИП без НДС.</p>\r\n          </li>\r\n          <li class=\"advantages__block\">\r\n            <img class=\"advantages__logo\" src=\"images/deadline-img.svg\" alt=\"Точно в срок\">\r\n            <h3 class=\"advantages__subtitle\">Точно в срок</h3>\r\n            <p class=\"advantages__content\">В договоре прописана моя ответственность за срок проекта. Если просрочу —\r\n              плачу неустойку. </p>\r\n          </li>\r\n          <li class=\"advantages__block\">\r\n            <img class=\"advantages__logo\" src=\"images/agreement-img.svg\" alt=\"Ценник под вас\">\r\n            <h3 class=\"advantages__subtitle\">Ценник под вас</h3>\r\n            <p class=\"advantages__content\">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как\r\n              складывается цена.</p>\r\n          </li>\r\n          <li class=\"advantages__block\">\r\n            <img class=\"advantages__logo\" src=\"images/steps-img.svg\" alt=\"Премежуточные итоги\">\r\n            <h3 class=\"advantages__subtitle\">Промежуточные итоги</h3>\r\n            <p class=\"advantages__content\">Показываю работу поэтапно, а не <br>в последий момент перед <br>крайним\r\n              сроком. </p>\r\n          </li>\r\n          <li class=\"advantages__block\">\r\n            <img class=\"advantages__logo\" src=\"images/storage-img.svg\" alt=\"Хостинг и домен \">\r\n            <h3 class=\"advantages__subtitle\">Хостинг и домен </h3>\r\n            <p class=\"advantages__content\">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год\r\n              + SSL сертификат.</p>\r\n          </li>\r\n          <li class=\"advantages__block\">\r\n            <img class=\"advantages__logo\" src=\"images/conversation-img.svg\" alt=\"Не брошу после сдачи\">\r\n            <h3 class=\"advantages__subtitle\">Не брошу после сдачи</h3>\r\n            <p class=\"advantages__content\">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.\r\n            </p>\r\n          </li>\r\n        </ul>\r\n      </section>\r\n    </div>\r\n    <section class=\"projects page__container\">\r\n      <h2 class=\"projects__title\">Выполненные проекты</h2>\r\n      <ul class=\"projects__videos\">\r\n        <li class=\"projects__card\">\r\n          <a href=\"#\" class=\"projects__link\">\r\n            <img src=\"images/portfolio1.jpg\" alt=\"Видео\" class=\"projects__picture\">\r\n            <p class=\"projects__name\">The curious corner of chamarel</p>\r\n            <div class=\"projects__fake-button\">Посмотреть</div>\r\n          </a>\r\n        </li>\r\n        <li class=\"projects__card\">\r\n          <a href=\"#\" class=\"projects__link\">\r\n            <img src=\"images/portfolio2.jpg\" alt=\"Видео\" class=\"projects__picture\">\r\n            <p class=\"projects__name\">Gymkhana club golf course</p>\r\n            <div class=\"projects__fake-button\">Посмотреть</div>\r\n          </a>\r\n        </li>\r\n        <li class=\"projects__card\">\r\n          <a href=\"#\" class=\"projects__link\">\r\n            <img src=\"images/portfolio3.jpg\" alt=\"Видео\" class=\"projects__picture\">\r\n            <p class=\"projects__name\">Tamarind falls hiking trip - full day</p>\r\n            <div class=\"projects__fake-button\">Посмотреть</div>\r\n          </a>\r\n        </li>\r\n      </ul>\r\n\r\n    </section>\r\n    <div class=\"page__colored-wrap\">\r\n      <section class=\"gallery page__container\">\r\n        <div class=\"gallery__grid\">\r\n          <div class=\"gallery__cell\">\r\n            <!-- предполагаем, что при клике на превью должен открываться поп-ап с большой картинкой / видео -->\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery01.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery02.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery03.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery04.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery05.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link gallery__zoom-link_video\">\r\n              <img class=\"gallery__thumbnail\" src=\"images/gallery06.jpg\" alt=\"Картинка\">\r\n              <div class=\"gallery__video-status\">0:28</div>\r\n            </a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery07.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery08.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery09.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\"><img class=\"gallery__thumbnail\" src=\"images/gallery10.jpg\"\r\n                alt=\"Картинка\"></a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link gallery__zoom-link_video\">\r\n              <img class=\"gallery__thumbnail\" src=\"images/gallery11.jpg\" alt=\"Картинка\">\r\n              <div class=\"gallery__video-status\">0:28</div>\r\n            </a>\r\n          </div>\r\n          <div class=\"gallery__cell\">\r\n            <a href=\"#\" class=\"gallery__zoom-link\">\r\n              <img class=\"gallery__thumbnail\" src=\"images/gallery12.jpg\" alt=\"Картинка\">\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </section>\r\n    </div>\r\n  </main>\r\n  <footer class=\"footer page__container\">\r\n    <h2 class=\"footer__heading\" id=\"feedback\">Свяжитесь со мной</h2>\r\n    <form action=\"#\" method=\"post\" class=\"feedback\">\r\n      <p class=\"feedback__text\">Можете оставить заявку, я позвоню вам сегодня</p>\r\n      <input type=\"text\" class=\"feedback__input feedback__input_type_name\" placeholder=\"Ваше имя\">\r\n      <input type=\"text\" class=\"feedback__input feedback__input_type_phone\" placeholder=\"Ваш телефон\">\r\n      <button type=\"submit\" class=\"feedback-button feedback__submit\">Бесплатная консультация</button>\r\n    </form>\r\n\r\n    <div class=\"footer__contacts\">\r\n      <div class=\"footer__contacts-group\">\r\n        <h3 class=\"footer__contacts-heading\">Телефон</h3>\r\n        <a href=\"#\" class=\"footer__contacts-link\">+7 999 123 45 67</a>\r\n      </div>\r\n      <div class=\"footer__contacts-group\">\r\n        <h3 class=\"footer__contacts-heading\">Почта</h3>\r\n        <a href=\"#\" class=\"footer__contacts-link\">ivanov@mail.ru</a>\r\n      </div>\r\n      <div class=\"footer__contacts-group footer__contacts-group_long\">\r\n        <h3 class=\"footer__contacts-heading\">Соцсети</h3>\r\n        <ul class=\"footer__contacts-socials\">\r\n          <li><a href=\"#\" class=\"footer__contacts-link\">t.me/ivanov</a></li>\r\n          <li><a href=\"#\" class=\"footer__contacts-link\">vk.me/ivanov</a></li>\r\n          <li><a href=\"#\" class=\"footer__contacts-link\">fb.me/ivanov</a></li>\r\n        </ul>\r\n      </div>\r\n      <ul class=\"socials footer__socials\">\r\n        <li><a href=\"#\" class=\"socials__link\"><img src=\"images/github.svg\" alt=\"Гитхаб\" class=\"socials__icon\"></a></li>\r\n        <li><a href=\"#\" class=\"socials__link\"><img src=\"images/twitter.svg\" alt=\"Твиттер\" class=\"socials__icon\"></a>\r\n        </li>\r\n        <li><a href=\"#\" class=\"socials__link\"><img src=\"images/instagram.svg\" alt=\"Инстаграм\" class=\"socials__icon\"></a>\r\n        </li>\r\n        <li><a href=\"#\" class=\"socials__link\"><img src=\"images/facebook.svg\" alt=\"Фейсбук\" class=\"socials__icon\"></a>\r\n        </li>\r\n      </ul>\r\n      <a href=\"#\" class=\"footer__policy\">Политика конфиденциальности</a>\r\n    </div>\r\n  </footer>\r\n</body>\r\n\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 2796f21bc1b4e3d78e0b5e5834ac42a09144ec91)
++++ index.html	(date 1605269552275)
+@@ -1,205 +1,202 @@
+ <!DOCTYPE html>
+ <html lang="ru">
+-
+ <head>
+-  <meta charset="UTF-8">
+-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
++  <meta charset="UTF-8" />
++  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Фрилансер Петр Федоров</title>
+-  <link rel="stylesheet" href="pages/index.css">
++  <link rel="stylesheet" href="pages/index.css" />
+ </head>
+ 
+ <body class="page">
+-  <header class="header page__container">
+-    <a href="#"><img src="images/logo.svg" alt="Дискорд" class="header__logo"></a>
+-    <!-- ссылки на сторонние сайты => намеренно не оборачиваю их в nav -->
+-    <ul class="socials">
+-      <li><a href="#"><img src="images/github.svg" alt="Гитхаб" class="socials__icon"></a></li>
+-      <li><a href="#"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon"></a></li>
+-      <li><a href="#"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon"></a>
+-      </li>
+-      <li><a href="#"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon"></a></li>
+-    </ul>
+-  </header>
+-  <main>
+-    <section class="hello page__container">
+-      <img src="images/Keanu.jpg" alt="Киану Ривз" class="hello__picture">
+-      <div>
+-        <p class="hello__occupation">Фрилансер</p>
+-        <h1 class="hello__heading">Петр Федоров</h1>
+-        <p class="hello__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку
+-          небольшого сайта или интернет-магазина</p>
+-        <a href="#feedback" class="feedback-button hello__button">Бесплатная консультация</a>
+-      </div>
+-    </section>
+-    <div class="page__colored-wrap">
+-      <section class="advantages page__container">
+-        <h2 class="advantages__title">Со мной удобно работать</h2>
+-        <ul class="advantages__blocks">
+-          <li class="advantages__block">
+-            <img class="advantages__logo" src="images/offer-img.svg" alt="По договору">
+-            <h3 class="advantages__subtitle">По договору</h3>
+-            <p class="advantages__content">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю
+-              как ИП без НДС.</p>
+-          </li>
+-          <li class="advantages__block">
+-            <img class="advantages__logo" src="images/deadline-img.svg" alt="Точно в срок">
+-            <h3 class="advantages__subtitle">Точно в срок</h3>
+-            <p class="advantages__content">В договоре прописана моя ответственность за срок проекта. Если просрочу —
+-              плачу неустойку. </p>
+-          </li>
+-          <li class="advantages__block">
+-            <img class="advantages__logo" src="images/agreement-img.svg" alt="Ценник под вас">
+-            <h3 class="advantages__subtitle">Ценник под вас</h3>
+-            <p class="advantages__content">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как
+-              складывается цена.</p>
+-          </li>
+-          <li class="advantages__block">
+-            <img class="advantages__logo" src="images/steps-img.svg" alt="Премежуточные итоги">
+-            <h3 class="advantages__subtitle">Промежуточные итоги</h3>
+-            <p class="advantages__content">Показываю работу поэтапно, а не <br>в последий момент перед <br>крайним
+-              сроком. </p>
+-          </li>
+-          <li class="advantages__block">
+-            <img class="advantages__logo" src="images/storage-img.svg" alt="Хостинг и домен ">
+-            <h3 class="advantages__subtitle">Хостинг и домен </h3>
+-            <p class="advantages__content">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год
+-              + SSL сертификат.</p>
+-          </li>
+-          <li class="advantages__block">
+-            <img class="advantages__logo" src="images/conversation-img.svg" alt="Не брошу после сдачи">
+-            <h3 class="advantages__subtitle">Не брошу после сдачи</h3>
+-            <p class="advantages__content">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.
+-            </p>
+-          </li>
+-        </ul>
+-      </section>
+-    </div>
+-    <section class="projects page__container">
+-      <h2 class="projects__title">Выполненные проекты</h2>
+-      <ul class="projects__videos">
+-        <li class="projects__card">
+-          <a href="#" class="projects__link">
+-            <img src="images/portfolio1.jpg" alt="Видео" class="projects__picture">
+-            <p class="projects__name">The curious corner of chamarel</p>
+-            <div class="projects__fake-button">Посмотреть</div>
+-          </a>
+-        </li>
+-        <li class="projects__card">
+-          <a href="#" class="projects__link">
+-            <img src="images/portfolio2.jpg" alt="Видео" class="projects__picture">
+-            <p class="projects__name">Gymkhana club golf course</p>
+-            <div class="projects__fake-button">Посмотреть</div>
+-          </a>
+-        </li>
+-        <li class="projects__card">
+-          <a href="#" class="projects__link">
+-            <img src="images/portfolio3.jpg" alt="Видео" class="projects__picture">
+-            <p class="projects__name">Tamarind falls hiking trip - full day</p>
+-            <div class="projects__fake-button">Посмотреть</div>
+-          </a>
+-        </li>
+-      </ul>
+-
+-    </section>
+-    <div class="page__colored-wrap">
+-      <section class="gallery page__container">
+-        <div class="gallery__grid">
+-          <div class="gallery__cell">
+-            <!-- предполагаем, что при клике на превью должен открываться поп-ап с большой картинкой / видео -->
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery01.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery02.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery03.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery04.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery05.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link gallery__zoom-link_video">
+-              <img class="gallery__thumbnail" src="images/gallery06.jpg" alt="Картинка">
+-              <div class="gallery__video-status">0:28</div>
+-            </a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery07.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery08.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery09.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery10.jpg"
+-                alt="Картинка"></a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link gallery__zoom-link_video">
+-              <img class="gallery__thumbnail" src="images/gallery11.jpg" alt="Картинка">
+-              <div class="gallery__video-status">0:28</div>
+-            </a>
+-          </div>
+-          <div class="gallery__cell">
+-            <a href="#" class="gallery__zoom-link">
+-              <img class="gallery__thumbnail" src="images/gallery12.jpg" alt="Картинка">
+-            </a>
+-          </div>
+-        </div>
+-      </section>
+-    </div>
+-  </main>
+-  <footer class="footer page__container">
+-    <h2 class="footer__heading" id="feedback">Свяжитесь со мной</h2>
+-    <form action="#" method="post" class="feedback">
+-      <p class="feedback__text">Можете оставить заявку, я позвоню вам сегодня</p>
+-      <input type="text" class="feedback__input feedback__input_type_name" placeholder="Ваше имя">
+-      <input type="text" class="feedback__input feedback__input_type_phone" placeholder="Ваш телефон">
+-      <button type="submit" class="feedback-button feedback__submit">Бесплатная консультация</button>
+-    </form>
++<header class="header page__container">
++  <a href="#"><img src="images/logo.svg" alt="Дискорд" class="header__logo" /></a>
++  <!-- ссылки на сторонние сайты => намеренно не оборачиваю их в nav -->
++  <ul class="socials">
++    <li>
++      <a href="#"><img src="images/github.svg" alt="Гитхаб" class="socials__icon" /></a>
++    </li>
++    <li>
++      <a href="#"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon" /></a>
++    </li>
++    <li>
++      <a href="#"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon" /></a>
++    </li>
++    <li>
++      <a href="#"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon" /></a>
++    </li>
++  </ul>
++</header>
++<main>
++  <section class="hello page__container">
++    <img src="images/Keanu.jpg" alt="Киану Ривз" class="hello__picture" />
++    <div>
++      <p class="hello__occupation">Фрилансер</p>
++      <h1 class="hello__heading">Петр Федоров</h1>
++      <p class="hello__text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
++      <a href="#feedback" class="feedback-button hello__button">Бесплатная консультация</a>
++    </div>
++  </section>
++  <div class="page__colored-wrap">
++    <section class="advantages page__container">
++      <h2 class="advantages__title">Со мной удобно работать</h2>
++      <ul class="advantages__blocks">
++        <li class="advantages__block">
++          <img class="advantages__logo" src="images/offer-img.svg" alt="По договору" />
++          <h3 class="advantages__subtitle">По договору</h3>
++          <p class="advantages__content">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
++        </li>
++        <li class="advantages__block">
++          <img class="advantages__logo" src="images/deadline-img.svg" alt="Точно в срок" />
++          <h3 class="advantages__subtitle">Точно в срок</h3>
++          <p class="advantages__content">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
++        </li>
++        <li class="advantages__block">
++          <img class="advantages__logo" src="images/agreement-img.svg" alt="Ценник под вас" />
++          <h3 class="advantages__subtitle">Ценник под вас</h3>
++          <p class="advantages__content">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
++        </li>
++        <li class="advantages__block">
++          <img class="advantages__logo" src="images/steps-img.svg" alt="Премежуточные итоги" />
++          <h3 class="advantages__subtitle">Промежуточные итоги</h3>
++          <p class="advantages__content">
++            Показываю работу поэтапно, а не <br />
++            в последий момент перед <br />
++            крайним сроком.
++          </p>
++        </li>
++        <li class="advantages__block">
++          <img class="advantages__logo" src="images/storage-img.svg" alt="Хостинг и домен " />
++          <h3 class="advantages__subtitle">Хостинг и домен</h3>
++          <p class="advantages__content">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
++        </li>
++        <li class="advantages__block">
++          <img class="advantages__logo" src="images/conversation-img.svg" alt="Не брошу после сдачи" />
++          <h3 class="advantages__subtitle">Не брошу после сдачи</h3>
++          <p class="advantages__content">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
++        </li>
++      </ul>
++    </section>
++  </div>
++  <section class="projects page__container">
++    <h2 class="projects__title">Выполненные проекты</h2>
++    <ul class="projects__videos">
++      <li class="projects__card">
++        <a href="#" class="projects__link">
++          <img src="images/portfolio1.jpg" alt="Шамарель" class="projects__picture" />
++          <p class="projects__name">The curious corner of chamarel</p>
++          <div class="projects__fake-button">Посмотреть</div>
++        </a>
++      </li>
++      <li class="projects__card">
++        <a href="#" class="projects__link">
++          <img src="images/portfolio2.jpg" alt="Веллингтон" class="projects__picture" />
++          <p class="projects__name">Gymkhana club golf course</p>
++          <div class="projects__fake-button">Посмотреть</div>
++        </a>
++      </li>
++      <li class="projects__card">
++        <a href="#" class="projects__link">
++          <img src="images/portfolio3.jpg" alt="Тамаринд" class="projects__picture" />
++          <p class="projects__name">Tamarind falls hiking trip - full day</p>
++          <div class="projects__fake-button">Посмотреть</div>
++        </a>
++      </li>
++    </ul>
++  </section>
++  <div class="page__colored-wrap">
++    <section class="gallery page__container">
++      <div class="gallery__grid">
++        <div class="gallery__cell">
++          <!-- предполагаем, что при клике на превью должен открываться поп-ап с большой картинкой / видео -->
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery01.jpg" alt="Офис Фигмы" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery02.jpg" alt="Зона отдыха" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery03.jpg" alt="Сотрудники" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery04.jpg" alt="Зона отдыха" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery05.jpg" alt="Вывеска Фигма" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link gallery__zoom-link_video">
++            <img class="gallery__thumbnail" src="images/gallery06.jpg" alt="Работа в Фигме" />
++            <div class="gallery__video-status">0:28</div>
++          </a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery07.jpg" alt="Библиотека" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery08.jpg" alt="Переговорка" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery09.jpg" alt="Сотрудник" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link"><img class="gallery__thumbnail" src="images/gallery10.jpg" alt="Рабочий процесс" /></a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link gallery__zoom-link_video">
++            <img class="gallery__thumbnail" src="images/gallery11.jpg" alt="Мост Золотые ворота" />
++            <div class="gallery__video-status">0:28</div>
++          </a>
++        </div>
++        <div class="gallery__cell">
++          <a href="#" class="gallery__zoom-link">
++            <img class="gallery__thumbnail" src="images/gallery12.jpg" alt="Совещание" />
++          </a>
++        </div>
++      </div>
++    </section>
++  </div>
++</main>
++<footer class="footer page__container">
++  <h2 class="footer__heading" id="feedback">Свяжитесь со мной</h2>
++  <form action="#" method="post" class="feedback">
++    <p class="feedback__text">Можете оставить заявку, я позвоню вам сегодня</p>
++    <input type="text" class="feedback__input feedback__input_type_name" placeholder="Ваше имя" />
++    <input type="text" class="feedback__input feedback__input_type_phone" placeholder="Ваш телефон" />
++    <button type="submit" class="feedback-button feedback__submit">Бесплатная консультация</button>
++  </form>
+ 
+-    <div class="footer__contacts">
+-      <div class="footer__contacts-group">
+-        <h3 class="footer__contacts-heading">Телефон</h3>
+-        <a href="#" class="footer__contacts-link">+7 999 123 45 67</a>
+-      </div>
+-      <div class="footer__contacts-group">
+-        <h3 class="footer__contacts-heading">Почта</h3>
+-        <a href="#" class="footer__contacts-link">ivanov@mail.ru</a>
+-      </div>
+-      <div class="footer__contacts-group footer__contacts-group_long">
+-        <h3 class="footer__contacts-heading">Соцсети</h3>
+-        <ul class="footer__contacts-socials">
+-          <li><a href="#" class="footer__contacts-link">t.me/ivanov</a></li>
+-          <li><a href="#" class="footer__contacts-link">vk.me/ivanov</a></li>
+-          <li><a href="#" class="footer__contacts-link">fb.me/ivanov</a></li>
+-        </ul>
+-      </div>
+-      <ul class="socials footer__socials">
+-        <li><a href="#" class="socials__link"><img src="images/github.svg" alt="Гитхаб" class="socials__icon"></a></li>
+-        <li><a href="#" class="socials__link"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon"></a>
+-        </li>
+-        <li><a href="#" class="socials__link"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon"></a>
+-        </li>
+-        <li><a href="#" class="socials__link"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon"></a>
+-        </li>
+-      </ul>
+-      <a href="#" class="footer__policy">Политика конфиденциальности</a>
+-    </div>
+-  </footer>
++  <div class="footer__contacts">
++    <div class="footer__contacts-group">
++      <h3 class="footer__contacts-heading">Телефон</h3>
++      <a href="#" class="footer__contacts-link">+7 999 123 45 67</a>
++    </div>
++    <div class="footer__contacts-group">
++      <h3 class="footer__contacts-heading">Почта</h3>
++      <a href="#" class="footer__contacts-link">ivanov@mail.ru</a>
++    </div>
++    <div class="footer__contacts-group footer__contacts-group_long">
++      <h3 class="footer__contacts-heading">Соцсети</h3>
++      <ul class="footer__contacts-socials">
++        <li><a href="#" class="footer__contacts-link">t.me/ivanov</a></li>
++        <li><a href="#" class="footer__contacts-link">vk.me/ivanov</a></li>
++        <li><a href="#" class="footer__contacts-link">fb.me/ivanov</a></li>
++      </ul>
++    </div>
++    <ul class="socials footer__socials">
++      <li>
++        <a href="#" class="socials__link"><img src="images/github.svg" alt="Гитхаб" class="socials__icon" /></a>
++      </li>
++      <li>
++        <a href="#" class="socials__link"><img src="images/twitter.svg" alt="Твиттер" class="socials__icon" /></a>
++      </li>
++      <li>
++        <a href="#" class="socials__link"><img src="images/instagram.svg" alt="Инстаграм" class="socials__icon" /></a>
++      </li>
++      <li>
++        <a href="#" class="socials__link"><img src="images/facebook.svg" alt="Фейсбук" class="socials__icon" /></a>
++      </li>
++    </ul>
++    <a href="#" class="footer__policy">Политика конфиденциальности</a>
++  </div>
++</footer>
+ </body>
+-
+ </html>
+Index: images/facebook.svg
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><svg width=\"20\" height=\"20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2.93 20h6.523v-7.11H7.11v-2.343h2.344v-2.93a2.933 2.933 0 012.93-2.93h2.93v2.344h-2.344c-.646 0-1.172.526-1.172 1.172v2.344h3.41l-.39 2.344h-3.02V20h5.273A2.933 2.933 0 0020 17.07V2.93A2.933 2.933 0 0017.07 0H2.93A2.933 2.933 0 000 2.93v14.14A2.933 2.933 0 002.93 20zM1.172 2.93c0-.97.788-1.758 1.758-1.758h14.14c.97 0 1.758.788 1.758 1.758v14.14a1.76 1.76 0 01-1.758 1.758H12.97v-4.765h2.84l.781-4.688H12.97V8.203h3.515V3.516h-4.101A4.106 4.106 0 008.28 7.617v1.758H5.937v4.688h2.344v4.765H2.93a1.76 1.76 0 01-1.758-1.758V2.93z\" fill=\"#fff\"/></svg>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- images/facebook.svg	(revision 2796f21bc1b4e3d78e0b5e5834ac42a09144ec91)
++++ images/facebook.svg	(date 1605268773178)
+@@ -1,1 +1,3 @@
+-<svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.93 20h6.523v-7.11H7.11v-2.343h2.344v-2.93a2.933 2.933 0 012.93-2.93h2.93v2.344h-2.344c-.646 0-1.172.526-1.172 1.172v2.344h3.41l-.39 2.344h-3.02V20h5.273A2.933 2.933 0 0020 17.07V2.93A2.933 2.933 0 0017.07 0H2.93A2.933 2.933 0 000 2.93v14.14A2.933 2.933 0 002.93 20zM1.172 2.93c0-.97.788-1.758 1.758-1.758h14.14c.97 0 1.758.788 1.758 1.758v14.14a1.76 1.76 0 01-1.758 1.758H12.97v-4.765h2.84l.781-4.688H12.97V8.203h3.515V3.516h-4.101A4.106 4.106 0 008.28 7.617v1.758H5.937v4.688h2.344v4.765H2.93a1.76 1.76 0 01-1.758-1.758V2.93z" fill="#fff"/></svg>
+\ No newline at end of file
++<svg width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">
++  <path  d="M2.93 20h6.523v-7.11H7.11v-2.343h2.344v-2.93a2.933 2.933 0 012.93-2.93h2.93v2.344h-2.344c-.646 0-1.172.526-1.172 1.172v2.344h3.41l-.39 2.344h-3.02V20h5.273A2.933 2.933 0 0020 17.07V2.93A2.933 2.933 0 0017.07 0H2.93A2.933 2.933 0 000 2.93v14.14A2.933 2.933 0 002.93 20zM1.172 2.93c0-.97.788-1.758 1.758-1.758h14.14c.97 0 1.758.788 1.758 1.758v14.14a1.76 1.76 0 01-1.758 1.758H12.97v-4.765h2.84l.781-4.688H12.97V8.203h3.515V3.516h-4.101A4.106 4.106 0 008.28 7.617v1.758H5.937v4.688h2.344v4.765H2.93a1.76 1.76 0 01-1.758-1.758V2.93z" fill="#fff" />
++</svg>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"26c99336-2c7c-4b7d-9780-d66d951035fc\" name=\"Default Changelist\" comment=\"Section Projects done\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/blocks/hello/__text/hello__text.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/blocks/hello/__text/hello__text.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/blocks/page/page.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/blocks/page/page.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/fonts/roboto.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/fonts/roboto.css\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1k9qCYROcd9c6tJ41ftYWr7apdZ\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\brigh\\dev\\magenda\\20-challenge-team-magenta\\blocks\\gallery\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"26c99336-2c7c-4b7d-9780-d66d951035fc\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1605123028063</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1605123028063</updated>\r\n      <workItem from=\"1605123029207\" duration=\"12982000\" />\r\n      <workItem from=\"1605173837825\" duration=\"7506000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Cверстала Удобно работать\">\r\n      <created>1605127993731</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1605127993732</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"added grid gallery\">\r\n      <created>1605167542011</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1605167542012</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Section Projects done\">\r\n      <created>1605189412511</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1605189412511</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Cверстала Удобно работать\" />\r\n    <MESSAGE value=\"added grid gallery\" />\r\n    <MESSAGE value=\"Section Project done\" />\r\n    <MESSAGE value=\"Section Projects done\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Section Projects done\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"233\" y=\"74\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1605189417643\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"233\" y=\"74\" key=\"Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1605189417643\" />\r\n    <state x=\"458\" y=\"255\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1605254310483\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"458\" y=\"255\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1605254310483\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 2796f21bc1b4e3d78e0b5e5834ac42a09144ec91)
++++ .idea/workspace.xml	(date 1605268889151)
+@@ -21,9 +21,8 @@
+   <component name="ChangeListManager">
+     <list default="true" id="26c99336-2c7c-4b7d-9780-d66d951035fc" name="Default Changelist" comment="Section Projects done">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/blocks/hello/__text/hello__text.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/hello/__text/hello__text.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/blocks/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/page/page.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/fonts/roboto.css" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/roboto.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/images/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/facebook.svg" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
